@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+ }
+h1 {
+    text-align: left;
+}
+header {
+    background-color: #6ba1ed;
+}
+
+nav {
+    background-color: #e77e7e;
+}
+
+main {
+    margin-top: 50px;
+}
+
+footer {
+    background-color: #050505;
+    color: #ffffff;
+}
+
+.navbar-nav a:link { color:#6ba1ed; }
+.navbar-nav a:visited { color:#6ba1ed; }
+.navbar-nav a:hover { color: red; }
+.navbar-nav a:active { color: red; }
+
+.navbar-nav .active{
+    color: white !important;
+}
+
+#heroHome {
+    background-image: url('sm2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 30px 0;
+}
+
+#heroText {
+    padding: 25px;
+    margin: 40px;
+    color: white;
+    backdrop-filter: blur(6px) saturate(102%);
+    -webkit-backdrop-filter: blur(6px) saturate(102%);
+    background-color: rgba(0, 0, 0, 0.45);
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.45);
+}
+
+.recipe-card {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#writers {
+    background-color: #6ba1ed;
+}
+
+table tr td, table tr th{
+    background-color: #6ba1ed !important;
+    border-color: black;
+}
+
+a:link {color: #e77e7e;}
+a:visited{color: #e77e7e;}
+a:hover {color: red;}
+
+.logoImg {
+    width: 100px;
+}
+
+.logoDiv {
+    text-align: center;
+}
